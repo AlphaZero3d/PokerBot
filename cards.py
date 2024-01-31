@@ -3,7 +3,7 @@
 class Card(object):
     # Point values for each card using a dictionary
     card_values = {
-        'A': 14,  # value of the ace is high until it needs to be low
+        'A'or 'a': 14,  # value of the ace is high until it needs to be low
         '2': 2,
         '3': 3,
         '4': 4,
@@ -12,10 +12,10 @@ class Card(object):
         '7': 7,
         '8': 8,
         '9': 9,
-        'T': 10,
-        'J': 11,
-        'Q': 12,
-        'K': 13,
+        'T' or 't': 10,
+        'J' or 'j': 11,
+        'Q' or 'q': 12,
+        'K' or 'k': 13,
         '?': 0
     }
 
